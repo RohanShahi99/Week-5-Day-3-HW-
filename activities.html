@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylehw.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Cliffs of California</title>
+</head>
+<body id="activities">
+    <header>
+        <div class="main-header">
+            <div class="logo">
+                <img src="img/logo.png" alt="Great Cliff's Logo">
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="test.html">Home</a></li>
+                    <li><a href="cliffs.html">Cliffs</a></li>
+                    <li class="active"><a href="activities.html">Activities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="timeofday">
+        <span>Your Current Local Time: <span id="clock"></span> CT </span>
+    </section>
+
+    <table>
+        <caption>Activities at the Cliffs</caption>
+        <thead>
+            <tr>
+                <th>Activity</th>
+                <th>West Cliff</th>
+                <th>North Cliff</th>
+                <th>East Cliff</th>
+                <th>South Cliff</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hiking</td>
+                <td class="selectable">College Hikes</td>
+                <td class="selectable">Family Fun</td>
+                <td class="selectable">Treasure Trails</td>
+                <td class="selectable">Canyon Explorer</td>
+            </tr>
+            <tr>
+                <td>Kayak</td>
+                <td class="selectable">Western Kayak Meetup</td>
+                <td class="selectable">Not Available</td>
+                <td class="selectable">Youth Kayaking</td>
+                <td class="selectable">Kayak Down</td>
+            </tr> 
+            <tr>
+                <td>Skydiving</td>
+                <td class="selectable">Seacliff Diving</td>
+                <td class="selectable">Sky is the limit</td>
+                <td class="selectable">Not Available</td>
+                <td class="selectable">Sky Diving for Beginners</td>
+            </tr>
+            <tr>
+                <td>Biking</td>
+                <td class="selectable">Bicycle for one</td>
+                <td class="selectable">Not Available</td>
+                <td class="selectable">Bike Meetup Group</td>
+                <td class="selectable">Not Available</td>
+            </tr>
+            <tr>
+                <td>Camping</td>
+                <td class="selectable">Youth Camp</td>
+                <td class="selectable">Rent a tent</td>
+                <td class="selectable">Campground Adventure</td>
+                <td class="selectable">Sunset Camping</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="displaySelected">
+        <div id="result">
+            <h4>My selected activities to enquire:</h4>
+        </div>
+        <div id="sendinfo">
+            <input type="email" placeholder="johndoe@gmail.com">
+            <button>Get Info</button>
+        </div>
+    </div>
+
+    <section id="partners">
+        <ul>
+            <li class="partner"><img src="partners/partner-bustour.png" alt="Partner Bus Tour"></li>
+            <li class="partner"><img src="partners/partner-cabinrental.png" alt="Partner Cabin Rental"></li>
+            <li class="partner"><img src="partners/partner-campingadv.png" alt="Partner Camping Adventure"></li>
+            <li class="partner"><img src="partners/partner-collegetours.png" alt="Partner College Tours"></li>
+            <li class="partner"><img src="partners/partner-rentalbike.png" alt="Partner Rental Bike"></li>
+            <li class="partner"><img src="partners/partner-tourgroup.png" alt="Partner Tour Group"></li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="foot">
+            <p>&copy; 2020 Great Cliffs of California</p>
+            <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+        <p>This website is designed and created solely for educational purposes only at NewSoftUI University. All contents are not intended for any commercial gain or use.</p>
+    </footer>
+</body>
+</html>
+
+        
